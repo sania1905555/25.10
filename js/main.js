@@ -25,6 +25,62 @@
 // }
 
 
+
+////////////Максимальное значение в объекте///////////////
+// var salaries = {
+//   "Вася": 400,
+//   "Петя": 300,
+//   "Даша": 100
+// };
+
+// function isEmpty(obj) {
+
+// 	for (var key in obj) {
+// 		return false;
+// 	}
+// 	return true;
+// };
+// function bigMoney (obj) {
+// 	var money = 0;
+// 	var maxName = '';
+// 	for (var key in obj) {
+// 		if (money < obj[key]) {
+// 			money = obj[key];
+// 			maxName = key;
+// 		} ;
+// 	}
+// 	alert(maxName);
+// }
+
+
+
+
+////////////Максимальное значение в объекте///////////////
+// var salaries = {
+//   "Вася": 400,
+//   "Петя": 300,
+//   "Даша": 100
+// };
+
+// function isEmpty(obj) {
+
+// 	for (var key in obj) {
+// 		return false;
+// 	}
+// 	return true;
+// };
+// function bigMoney (obj) {
+// 	var money = 0;
+// 	var maxName = '';
+// 	for (var key in obj) {
+// 		if (money < obj[key]) {
+// 			money = obj[key];
+// 			maxName = key;
+// 		} ;
+// 	}
+// 	alert(maxName);
+// }
+
 // if (isEmpty(salaries) == true){
 // 	alert('нет сотрудников')
 // } else {
